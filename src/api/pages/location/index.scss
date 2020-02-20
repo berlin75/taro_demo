@@ -1,0 +1,25 @@
+.location {
+  &_wp {
+    margin: 40px 24px;
+    &_btn {
+      margin-top: 20px;
+    }
+  }
+  &_content {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    &_name {
+      width: 300px;
+      text-align: right;
+      margin-right: 20px;
+    }
+    &_detail {
+      flex: 1;
+    }
+  }
+  .oprate_btn {
+    margin: 40px 24px;
+  }
+}

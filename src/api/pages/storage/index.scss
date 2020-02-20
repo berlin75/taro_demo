@@ -1,0 +1,16 @@
+page {
+  background-color: #f8f8f8;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.storage {
+  &__btns {
+    margin-top: 50px;
+  }
+  &__btn {
+    margin: 20px 30px;
+  }
+}

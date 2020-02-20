@@ -1,0 +1,38 @@
+page {
+  background-color: #f8f8f8;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.index {
+  background-color: #f8f8f8;
+  &__top {
+    padding: 60px 40px;
+    font-size: 28px;
+    color: #999999;
+    text-align: center;
+  }
+  &__main {
+    &-sub {
+      margin: 0 30px;
+      background-color: #fff;
+      font-size: 32px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      &-title {
+        display: block;
+        padding: 0 30px;
+        height: 88px;
+        line-height: 88px;
+      }
+      &-list {
+          display: none;
+        &--unfold {
+          display: block;
+        }
+      }
+    }
+  }
+}
