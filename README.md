@@ -1,5 +1,5 @@
 # Taro Demo
 
-. taro componets
-. taro api
-. taro-ui
+* taro componets
+* taro api
+* taro-ui
